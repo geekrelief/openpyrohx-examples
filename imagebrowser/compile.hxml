@@ -1,0 +1,6 @@
+-swf imagebrowser.swf
+-main ImageBrowser
+-swf-header 1200:600:30:ffffff
+-swf-version 10
+-cp ../../openpyrohx
+--no-traces

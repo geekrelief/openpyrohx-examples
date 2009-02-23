@@ -1,0 +1,6 @@
+-swf slider.swf
+-main TestSlider
+-swf-header 800:600:30:ffffff
+-swf-version 10
+-cp ../../openpyrohx
+--no-traces
