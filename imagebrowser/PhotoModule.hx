@@ -27,13 +27,6 @@ class PhotoModule extends UIContainer {
                       ,{label:"toradora", data:"images/toradora.jpg"}
                       ,{label:"nodame", data:"images/nodame.jpg"}
                    ];
-        
-        /*
-        picData  = [  {label:"freeza", data:"http://www.sugaju.com/tests/openpyro/images/freezer.jpg"}
-                      ,{label:"toradora", data:"http://www.sugaju.com/tests/openpyro/images/toradora.jpg"}
-                      ,{label:"nodame", data:"http://www.sugaju.com/tests/openpyro/images/nodame.jpg"}
-                   ];
-                   */
     }
 
     override function createChildren():Void {
