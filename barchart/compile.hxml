@@ -1,0 +1,10 @@
+-swf main.swf
+-main OpenPyroExample
+-swf-header 800:600:30:ffffff
+-swf-version 10 
+-cp ../../openpyrohx
+-cp ../../openpyrohx/imports
+-cp ../
+#--no-traces
+-debug
+-lib feffects
