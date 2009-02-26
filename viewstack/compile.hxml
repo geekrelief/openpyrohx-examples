@@ -1,0 +1,8 @@
+-swf main.swf
+-main TestViewStack
+-swf-header 800:600:30:ffffff
+-swf-version 10 
+-cp ../../openpyrohx
+-lib feffects
+#--no-traces
+-debug
