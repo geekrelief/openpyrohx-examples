@@ -22,7 +22,6 @@
     		viewStack = new SlidePane();
     		red = new UIContainer();
     		blue = new UIContainer();
-			testViewStack();
 		}
 		
 		static function main() {
@@ -30,14 +29,16 @@
 			stage.scaleMode = flash.display.StageScaleMode.NO_SCALE;
 			stage.align = flash.display.StageAlign.TOP_LEFT;
 		
-            stage.addChild(new TestViewStack());	
+            var t = new TestViewStack();
+            stage.addChild(t);
+			t.testViewStack();
 		}
 		
-        function testViewStack():Void
+        public function testViewStack():Void
 		{
 			viewStack.mwidth = 200;
 			viewStack.mheight = 500;
-			viewStack.x = viewStack.y = 10;
+			viewStack.x = viewStack.y = 100;
 			viewStack.skin = new AuroraContainerSkin();
 			viewStack.backgroundPainter = new FillPainter(0xcccccc);
 			addChild(viewStack);
@@ -58,7 +59,7 @@
 			
 			children.push(blue);
 			
-			flash.Lib.current.stage.addEventListener(MouseEvent.CLICK, onStageClick);
+			stage.addEventListener(MouseEvent.CLICK, onStageClick);
 		}
 		
 		function onStageClick(event:MouseEvent):Void
